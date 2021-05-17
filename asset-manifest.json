@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/typescript-quiz/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/typescript-quiz/static/js/main.8802c8c1.chunk.js",
+    "main.js.map": "/typescript-quiz/static/js/main.8802c8c1.chunk.js.map",
+    "runtime-main.js": "/typescript-quiz/static/js/runtime-main.52a251ee.js",
+    "runtime-main.js.map": "/typescript-quiz/static/js/runtime-main.52a251ee.js.map",
+    "static/js/2.6c7b8a2e.chunk.js": "/typescript-quiz/static/js/2.6c7b8a2e.chunk.js",
+    "static/js/2.6c7b8a2e.chunk.js.map": "/typescript-quiz/static/js/2.6c7b8a2e.chunk.js.map",
+    "static/js/3.e4d6cc61.chunk.js": "/typescript-quiz/static/js/3.e4d6cc61.chunk.js",
+    "static/js/3.e4d6cc61.chunk.js.map": "/typescript-quiz/static/js/3.e4d6cc61.chunk.js.map",
+    "index.html": "/typescript-quiz/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/typescript-quiz/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.6c7b8a2e.chunk.js.LICENSE.txt": "/typescript-quiz/static/js/2.6c7b8a2e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/typescript-quiz/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52a251ee.js",
+    "static/js/2.6c7b8a2e.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.8802c8c1.chunk.js"
+  ]
+}

@@ -11,13 +11,16 @@ const App = () => {
   }
 
   const nextQuestion = () => {
-    
+
   }
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>QUIZ</h1>
+        <h1>TYPESCRIPT QUIZ</h1>
+        <button className="startBtn" onClick={startQuiz}>START</button>
+        <p className="score">SCORE:</p>
+        <p className="loading">LOADING QUIZ...</p> 
       </header>
     </div>
   );

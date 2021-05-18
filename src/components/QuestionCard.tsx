@@ -1,9 +1,27 @@
-import React from 'react'
+import React from 'react';
 
-const QuestionCard = () => {
+type Props = {
+    question: string;
+    answer: string[];
+    callback: any;
+    userAnswer: string;
+    questionNum: number;
+    totalQuestions: number;
+}
+
+const QuestionCard: React.FC<Props> = ({
+    question,
+    answer,
+    callback,
+    userAnswer,
+    questionNum,
+    totalQuestions
+}) => {
     return (
         <div>
-            <h1>Question Card</h1>
+            <p className="number">
+                Question: {questionNum} / {totalQuestions}
+            </p>
         </div>
     )
 }

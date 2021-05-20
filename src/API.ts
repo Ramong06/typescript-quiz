@@ -1,4 +1,15 @@
 
+export type Question = {
+    category: string;
+    correct_answer: string;
+    difficulty: string;
+    incorrect_answer: string[];
+    question: string;
+    type: string;
+};
+
+export type QuestionState = Question & { answers: string[] };
+
 export enum Difficulty {
     EASY = "easy",
     MEDIUM = "medium",
@@ -10,4 +21,4 @@ export const fetchQuizQuestions = async (amount: number, difficulty: Difficulty)
     const data = await (await fetch(endPoint)).json();
     console.log(data);
 };
-
+ 
